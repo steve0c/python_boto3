@@ -1,3 +1,5 @@
+#creates a new vpc
+
 import boto3 
 
 vpc = boto3.client("ec2")
